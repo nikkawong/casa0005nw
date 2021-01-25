@@ -114,3 +114,5 @@ income <- GDHI_region %>%
   select(area_id='Geo code', 'Area name', '2015')
 
 final <- inner_join(income,df)
+
+1+1
